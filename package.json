@@ -6,9 +6,10 @@
   "author": "Good <1204889603@qq.com>",
   "license": "MIT",
   "scripts": {
-      "docs:dev": "vuepress dev docs",
-      "docs:build": "vuepress build docs"
-	},
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+	"deploy": "bash deploy.sh"
+  },
   "devDependencies": {
     "vuepress": "^1.9.9"
   }
