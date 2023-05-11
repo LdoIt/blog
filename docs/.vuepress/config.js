@@ -4,7 +4,7 @@ module.exports = {
 	base: '/blog/',
 	themeConfig: {
 		lastUpdated: 'Last Updated', // 最后提交时间
-		// sidebarDepth: 2, // 显示标题链接的层数，最大为2，最小为0
+		// sidebarDepth: 0, // 显示标题链接的层数，最大为2，最小为0
 		displayAllHeaders: true, // 显示所有页面的标题链接
 		activeHeaderLinks: false, // 当用户滚动查看页面时阻止标题链接和 URL 中的 Hash 值实时更新行为
 		logo: '/assets/img/logo.png',
@@ -47,7 +47,7 @@ module.exports = {
 				{title: 'Group2', children: ['three', 'four']}
 			],
 			'/javascript/': [
-				''
+				{title: 'JavaScript', children: ['JavaScript闭包']}
 			],
 			'/knowledge/': [
 				'',
